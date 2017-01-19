@@ -42,7 +42,6 @@ public class Task1 {
                 System.out.println(e.getClass().getSimpleName());
             }
         }
-        String returned = replaced.toString();
-        return returned;
+        return replaced.toString();
     }
 }
