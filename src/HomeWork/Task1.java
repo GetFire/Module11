@@ -4,11 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by User on 19.01.2017.
+ * Created by GetFire on 19.01.2017.
  */
 public class Task1 {
 
-    private static final File FILE = new File("D:\\practice\\Module11\\src\\testModule.txt");
+    public static final File FILE = new File("D:\\practice\\Module11\\src\\testModule.txt");
 
     public static void main(String[] args) {
         Map<String, String> params = new HashMap<>();
